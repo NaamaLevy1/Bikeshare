@@ -48,7 +48,7 @@ def get_filters():
         else:
             print("\n Please choose a different day")
 
-    print('-' * 40)
+    print('-' * 20)
 
     if month == '' and day == '':
         return city, months, days
